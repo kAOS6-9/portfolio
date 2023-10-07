@@ -36,6 +36,8 @@ import {
     skintest,
     equalstwova,
     anxioport,
+    website,
+    mother,
   } from "../assets";
   
   export const navLinks = [
@@ -244,6 +246,7 @@ import {
       image: tiyashport,
       figma_link: "https://www.figma.com/proto/QEisUs2dUuFuYwtQ4vFIou/Tiyash-Consulting?page-id=0%3A1&type=design&node-id=1-2&viewport=726%2C510%2C0.19&t=Oy7X4EFdPNMew1Be-1&scaling=min-zoom&mode=design",
       github_link: "https://github.com/",
+      isFigma: true,
     },
     {
       name: "RTPro.com",
@@ -266,6 +269,7 @@ import {
       image: rtpro,
       figma_link: "https://www.figma.com/proto/sKT6DHJ9G0K9qJv4oIBCkZ/RTpro.com-Option-2?page-id=0%3A1&type=design&node-id=0-24&viewport=567%2C410%2C0.06&t=jEGYPOCJxEUFqM6v-1&scaling=min-zoom&starting-point-node-id=0%3A24&mode=design",
       github_link: "https://github.com/",
+      isFigma: true,
     },
     {
       name: "Zydus Skin Test",
@@ -288,7 +292,8 @@ import {
       image: skintest,
       figma_link: "https://figma.com/",
       github_link: "https://github.com/",
-      isLogo: true,
+      web_link: "https://equalstwo.com/microsite/skintest/index.html",
+      isWeb: true,
     },
     {
       name: "Interactive Guide",
@@ -312,11 +317,12 @@ import {
       figma_link: "https://www.figma.com/proto/dmGPHIEDkQUhC1uDV1mRiO/Pregnancy-Guide?page-id=0%3A1&type=design&node-id=1-3&viewport=743%2C112%2C0.09&t=5tEKW6vWlFip6pIr-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
       github_link: "https://github.com/",
       isLogo: true,
+      isFigma: true,
     },
     {
-      name: "Equals Two Products VA",
+      name: "Zydus BabyCare VA",
       description:
-        "An interactive Visual Aid showcasing Equals Two products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
+        "An interactive Visual Aid showcasing Baby Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
       tags: [
         {
           name: "Figma",
@@ -335,6 +341,7 @@ import {
       figma_link: "https://www.figma.com/proto/GlzyqDlJMzdr6cJrU0R1vB/Equals_Two_Presentation-v2?page-id=0%3A1&type=design&node-id=1-2&viewport=390%2C321%2C0.02&t=z6okErpPb8h9KjZn-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
       github_link: "https://github.com/",
       isLogo: true,
+      isFigma: true,
     },
     {
       name: "Anxio: Mental Health",
@@ -359,6 +366,7 @@ import {
       github_link: "https://github.com/",
       playstore_link:"https://play.google.com/store/apps/details/Anxio_Mental_Health_Self_care?id=com.euman.mentalhealth_common_issues",
       isPlaystore: true,
+      isFigma: true,
     },
     {
       name: "Fitness Companion",
@@ -381,6 +389,7 @@ import {
       image: fitness,
       figma_link: "https://www.figma.com/proto/C3ypMQatNrlL0AKZjyUK2M/Fitness-App?page-id=0%3A1&type=design&node-id=1-8364&viewport=1305%2C466%2C0.08&t=n54039rWsLdOmTJm-1&scaling=min-zoom&starting-point-node-id=1%3A8376&show-proto-sidebar=1&mode=design",
       github_link: "https://github.com/",
+      isFigma: true,
     },
     {
       name: "Gaming Companion",
@@ -403,6 +412,30 @@ import {
       image: gaming,
       figma_link: "https://www.figma.com/proto/OHdzUi0RmP8YbzfVYbGQK6/Gaming-App?page-id=0%3A1&type=design&node-id=4-126&viewport=682%2C183%2C0.12&t=fEv0ocDv8xf3oZuK-1&scaling=scale-down&starting-point-node-id=4%3A126&mode=design",
       github_link: "https://github.com/",
+      isFigma: true,
+    },
+    {
+      name: "Zydus MotherCare VA",
+      description:
+        "An interactive Visual Aid showcasing Mother Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gaming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ModernUI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mother,
+      figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
+      github_link: "https://github.com/",
+      isFigma: true,
     },
   ];
   

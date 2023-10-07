@@ -8,6 +8,7 @@ import figmalogo from "./figma.png";
 import play from "./play.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
+import website from './website.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -53,8 +54,11 @@ import rtpro from './rtpro.png'
 import skintest from './skintest.png'
 import equalstwova from './equalstwova.png'
 import anxioport from './anxioport.png'
+import mother from './mother.png'
 
 export {
+  mother,
+  website,
   anxioport,
   equalstwova,
   skintest,

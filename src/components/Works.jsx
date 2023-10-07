@@ -7,10 +7,11 @@ import { figmalogo } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { website } from '../assets'
 
 
 
-const ProjectCard = ({index, name, description, tags, image, figma_link, github_link, playstore_link, isLogo, isPlaystore}) =>
+const ProjectCard = ({index, name, description, tags, image, figma_link, github_link, playstore_link, isLogo, isPlaystore, isWeb, web_link, isFigma}) =>
 {
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -18,9 +19,11 @@ const ProjectCard = ({index, name, description, tags, image, figma_link, github_
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div onClick={() => window.open(figma_link, "_blank")} className='black-gradient w-8 h-8 rounded-full border-white border-solid border-[2px] flex justify-center items-center cursor-pointer'>
-              <img src={figmalogo} alt="Figma" className='object-contain' />
-            </div>
+            {isFigma == true &&
+              <div onClick={() => window.open(figma_link, "_blank")} className='black-gradient w-8 h-8 rounded-full border-white border-solid border-[2px] flex justify-center items-center cursor-pointer'>
+                <img src={figmalogo} alt="Figma" className='object-contain' />
+              </div>
+            }
             {isLogo == true &&
               <div onClick={() => window.open(github_link, "_blank")} className='ml-1 black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer'>
                 <img src={github} alt="github" className='object-contain' />
@@ -29,6 +32,11 @@ const ProjectCard = ({index, name, description, tags, image, figma_link, github_
             {isPlaystore == true &&
               <div onClick={() => window.open(playstore_link, "_blank")} className='ml-1 black-gradient w-8 h-8 rounded-full border-white border-solid border-[2px] flex justify-center items-center cursor-pointer'>
                 <img src={play} alt="PlayStore" className='object-contain ml-0.5 h-5 w-5' />
+              </div>
+            }
+            {isWeb == true &&
+              <div onClick={() => window.open(web_link, "_blank")} className='ml-1 black-gradient w-8 h-8 rounded-full border-white border-solid border-[2px] flex justify-center items-center cursor-pointer'>
+                <img src={website} alt="PlayStore" className='object-contain h-5 w-5' />
               </div>
             }
           </div>
