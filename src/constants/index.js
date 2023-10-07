@@ -38,6 +38,7 @@ import {
     anxioport,
     website,
     mother,
+    guide,
   } from "../assets";
   
   export const navLinks = [
@@ -244,7 +245,7 @@ import {
         },
       ],
       image: tiyashport,
-      figma_link: "https://www.figma.com/proto/QEisUs2dUuFuYwtQ4vFIou/Tiyash-Consulting?page-id=0%3A1&type=design&node-id=1-2&viewport=726%2C510%2C0.19&t=Oy7X4EFdPNMew1Be-1&scaling=min-zoom&mode=design",
+      figma_link: "https://www.figma.com/proto/QEisUs2dUuFuYwtQ4vFIou/Tiyash-Consulting?page-id=0%3A1&type=design&node-id=9-149&viewport=583%2C237%2C0.06&t=nFRJolBjHmmAQuee-1&scaling=min-zoom&mode=design",
       github_link: "https://github.com/",
       isFigma: true,
     },
@@ -298,7 +299,7 @@ import {
     {
       name: "Interactive Guide",
       description:
-          "An Interactive pregnancy guide designed to be displayed on iPads and displays at Zydus offices to replace paperback magazines and educate new generation mothers.",
+          "An Interactive pregnancy guide designed to be displayed on iPads at Zydus offices to replace paperback magazines and educate new generation mothers.",
       tags: [
         {
           name: "Figma",
@@ -313,9 +314,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      figma_link: "https://www.figma.com/proto/dmGPHIEDkQUhC1uDV1mRiO/Pregnancy-Guide?page-id=0%3A1&type=design&node-id=1-3&viewport=743%2C112%2C0.09&t=5tEKW6vWlFip6pIr-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
-      github_link: "https://github.com/",
+      image: guide,
+      figma_link: "https://www.figma.com/proto/dmGPHIEDkQUhC1uDV1mRiO/Pregnancy-Guide?page-id=0%3A1&type=design&node-id=1-3&viewport=650%2C246%2C0.08&t=twkulOtJ7Uwl0F1B-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
+      github_link: "https://github.com/kAOS6-9/interactiveguide",
       isLogo: true,
       isFigma: true,
     },
@@ -434,8 +435,9 @@ import {
       ],
       image: mother,
       figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
-      github_link: "https://github.com/",
+      github_link: "https://github.com/kAOS6-9/EqualsTwoMotherCareVA",
       isFigma: true,
+      isLogo:true,
     },
   ];
   

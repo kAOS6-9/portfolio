@@ -55,8 +55,10 @@ import skintest from './skintest.png'
 import equalstwova from './equalstwova.png'
 import anxioport from './anxioport.png'
 import mother from './mother.png'
+import guide from './guide.png'
 
 export {
+  guide,
   mother,
   website,
   anxioport,
