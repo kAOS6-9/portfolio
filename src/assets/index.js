@@ -56,8 +56,12 @@ import equalstwova from './equalstwova.png'
 import anxioport from './anxioport.png'
 import mother from './mother.png'
 import guide from './guide.png'
+import tshirt from './tshirt.png'
+import gamerverse from './gamerverse.png'
 
 export {
+  gamerverse,
+  tshirt,
   guide,
   mother,
   website,

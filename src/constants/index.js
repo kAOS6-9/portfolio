@@ -39,6 +39,8 @@ import {
     website,
     mother,
     guide,
+    tshirt,
+    gamerverse,
   } from "../assets";
   
   export const navLinks = [
@@ -227,9 +229,137 @@ import {
   
   const projects = [
     {
+      name: "Gamerverse",
+      description:
+        "A metaverse app designed for gamers, by a gamer. It provides latest metaverse news around the world. Thanks to Eduard Kaliushkin for NewsCatcher API Access.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Customizer",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MinimalUI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gamerverse,
+      figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
+      github_link: "https://github.com/kAOS6-9/gamerverse",
+      web_link: "https://gamerverse-jade.vercel.app/",
+      isLogo:true,
+      isWeb: true,
+    },
+    {
+      name: "T-shirt Customizer",
+      description:
+        "A freelancing project for a client's custom T-shirt printing business. This web app allows you to customize a 3D T-shirt model with colors and custom logo.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Customizer",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MinimalUI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tshirt,
+      figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
+      github_link: "https://github.com/kAOS6-9/tshirt-customizer",
+      web_link: "https://kaos6-9.github.io/tshirt-customizer/",
+      isLogo:true,
+      isWeb: true,
+    },
+    {
+      name: "Zydus BabyCare VA",
+      description:
+        "An interactive Visual Aid showcasing Baby Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Github",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ProductShowcase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: equalstwova,
+      figma_link: "https://www.figma.com/proto/GlzyqDlJMzdr6cJrU0R1vB/Equals_Two_Presentation-v2?page-id=0%3A1&type=design&node-id=1-2&viewport=390%2C321%2C0.02&t=z6okErpPb8h9KjZn-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
+      github_link: "https://github.com/kAOS6-9/EqualsTwoBabyCareVA",
+      web_link: "https://kaos6-9.github.io/EqualsTwoBabyCareVA/",
+      isLogo: true,
+      isFigma: true,
+      isWeb: true,
+    },
+    {
+      name: "Zydus MotherCare VA",
+      description:
+        "An interactive Visual Aid showcasing Mother Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gaming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ModernUI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mother,
+      figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
+      github_link: "https://github.com/kAOS6-9/EqualsTwoMotherCareVA",
+      web_link: "https://kaos6-9.github.io/EqualsTwoMotherCareVA/",
+      isFigma: true,
+      isLogo:true,
+      isWeb: true,
+    },
+    {
+      name: "Interactive Guide",
+      description:
+          "An Interactive pregnancy guide designed to be displayed on iPads at Zydus offices to replace paperback magazines and educate new generation mothers.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Github",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: guide,
+      figma_link: "https://www.figma.com/proto/dmGPHIEDkQUhC1uDV1mRiO/Pregnancy-Guide?page-id=0%3A1&type=design&node-id=1-3&viewport=650%2C246%2C0.08&t=twkulOtJ7Uwl0F1B-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
+      github_link: "https://github.com/kAOS6-9/interactiveguide",
+      web_link: "https://kaos6-9.github.io/interactiveguide/",
+      isLogo: true,
+      isFigma: true,
+      isWeb: true,
+    },
+    {
       name: "Tiyash Consulting",
       description:
-        "Financial consultation website for a leading consulting firm in the life sciences industry, founded and led by Sharad Tyagi, an accomplished and innovative entrapreneur",
+        "Financial consultation website for a leading consulting firm in the life sciences industry, founded and led by Sharad Tyagi, an accomplished and innovative entrepreneur",
       tags: [
         {
           name: "Figma",
@@ -270,78 +400,6 @@ import {
       image: rtpro,
       figma_link: "https://www.figma.com/proto/sKT6DHJ9G0K9qJv4oIBCkZ/RTpro.com-Option-2?page-id=0%3A1&type=design&node-id=0-24&viewport=567%2C410%2C0.06&t=jEGYPOCJxEUFqM6v-1&scaling=min-zoom&starting-point-node-id=0%3A24&mode=design",
       github_link: "https://github.com/",
-      isFigma: true,
-    },
-    {
-      name: "Zydus Skin Test",
-      description:
-        "A web application designed and developed by me to test skin condition of babies and give a score based on answers. It is Integrated with the live Equals Two website.",
-      tags: [
-        {
-          name: "Figma",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Github",
-          color: "green-text-gradient",
-        },
-        {
-          name: "DigitalDermatology",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: skintest,
-      figma_link: "https://figma.com/",
-      github_link: "https://github.com/",
-      web_link: "https://equalstwo.com/microsite/skintest/index.html",
-      isWeb: true,
-    },
-    {
-      name: "Interactive Guide",
-      description:
-          "An Interactive pregnancy guide designed to be displayed on iPads at Zydus offices to replace paperback magazines and educate new generation mothers.",
-      tags: [
-        {
-          name: "Figma",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Github",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: guide,
-      figma_link: "https://www.figma.com/proto/dmGPHIEDkQUhC1uDV1mRiO/Pregnancy-Guide?page-id=0%3A1&type=design&node-id=1-3&viewport=650%2C246%2C0.08&t=twkulOtJ7Uwl0F1B-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
-      github_link: "https://github.com/kAOS6-9/interactiveguide",
-      isLogo: true,
-      isFigma: true,
-    },
-    {
-      name: "Zydus BabyCare VA",
-      description:
-        "An interactive Visual Aid showcasing Baby Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
-      tags: [
-        {
-          name: "Figma",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Github",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ProductShowcase",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: equalstwova,
-      figma_link: "https://www.figma.com/proto/GlzyqDlJMzdr6cJrU0R1vB/Equals_Two_Presentation-v2?page-id=0%3A1&type=design&node-id=1-2&viewport=390%2C321%2C0.02&t=z6okErpPb8h9KjZn-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
-      github_link: "https://github.com/",
-      isLogo: true,
       isFigma: true,
     },
     {
@@ -416,29 +474,32 @@ import {
       isFigma: true,
     },
     {
-      name: "Zydus MotherCare VA",
+      name: "EQ2 Skin Test",
       description:
-        "An interactive Visual Aid showcasing Mother Care products, designed and developed to run on iPads provided to the sales team to help them keep the audience engaged.",
+        "A web application designed and developed to test skin condition of babies and give a score based on answers. It is Integrated with the live Equals Two website.",
       tags: [
         {
           name: "Figma",
           color: "blue-text-gradient",
         },
         {
-          name: "Gaming",
+          name: "Github",
           color: "green-text-gradient",
         },
         {
-          name: "ModernUI",
+          name: "DigitalDermatology",
           color: "pink-text-gradient",
         },
       ],
-      image: mother,
-      figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
-      github_link: "https://github.com/kAOS6-9/EqualsTwoMotherCareVA",
-      isFigma: true,
-      isLogo:true,
+      image: skintest,
+      figma_link: "https://figma.com/",
+      github_link: "https://github.com/kAOS6-9/EqualsTwoSkinTest",
+      web_link: "https://equalstwo.com/microsite/skintest/index.html",
+      isLogo: true,
+      isWeb: true,
+      
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

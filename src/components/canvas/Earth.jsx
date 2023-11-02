@@ -28,7 +28,8 @@ const EarthCanvas = () =>
       camera={{fov:45, near:0.1, far:200, position:[-4, 3, 6]}}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls 
+        <OrbitControls
+          enablePan={false}
           autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
