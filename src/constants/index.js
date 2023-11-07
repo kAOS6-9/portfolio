@@ -234,15 +234,15 @@ import {
         "A metaverse app designed for gamers, by a gamer. It provides latest metaverse news around the world. Thanks to Eduard Kaliushkin for NewsCatcher API Access.",
       tags: [
         {
-          name: "Figma",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "Customizer",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
-          name: "MinimalUI",
+          name: "Tailwind.css",
           color: "pink-text-gradient",
         },
       ],
@@ -259,15 +259,15 @@ import {
         "A freelancing project for a client's custom T-shirt printing business. This web app allows you to customize a 3D T-shirt model with colors and custom logo.",
       tags: [
         {
-          name: "Figma",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "Customizer",
+          name: "Three.js",
           color: "green-text-gradient",
         },
         {
-          name: "MinimalUI",
+          name: "Tailwind.css",
           color: "pink-text-gradient",
         },
       ],
@@ -288,11 +288,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Github",
+          name: "HTML/CSS",
           color: "green-text-gradient",
         },
         {
-          name: "ProductShowcase",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -314,11 +314,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Gaming",
+          name: "HTML/CSS",
           color: "green-text-gradient",
         },
         {
-          name: "ModernUI",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -340,7 +340,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Github",
+          name: "HTML/CSS",
           color: "green-text-gradient",
         },
         {
@@ -416,7 +416,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Anxiety",
+          name: "MobileApp",
           color: "pink-text-gradient",
         },
       ],
@@ -483,11 +483,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Github",
+          name: "HTML/CSS",
           color: "green-text-gradient",
         },
         {
-          name: "DigitalDermatology",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -497,7 +497,6 @@ import {
       web_link: "https://equalstwo.com/microsite/skintest/index.html",
       isLogo: true,
       isWeb: true,
-      
     },
     
   ];
