@@ -190,7 +190,7 @@ import {
       company_name: "Watermelon Health",
       icon: watermelon,
       iconBg: "#fff2ff",
-      date: "September 2022 - Present",
+      date: "September 2022 - September 2023",
       points: [
         "Developed and maintained visually appealing and user-friendly websites for diverse clients and projects, meeting and exceeding design and functionality requirements.",
         "Created wireframes, user flows, and interactive prototypes using tools such as Adobe XD and Figma.",
