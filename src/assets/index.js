@@ -35,8 +35,16 @@ import mother from './mother.png'
 import guide from './guide.png'
 import tshirt from './tshirt.png'
 import gamerverse from './gamerverse.png'
+import nike from './nike.png'
+import travel from './travel.png'
+import coderoom from './coderoom.png'
+import webdew from './webdew.png'
 
 export {
+  webdew,
+  coderoom,
+  travel,
+  nike,
   gamerverse,
   tshirt,
   guide,

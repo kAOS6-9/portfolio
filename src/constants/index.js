@@ -19,6 +19,10 @@ import {
     guide,
     tshirt,
     gamerverse,
+    nike,
+    travel,
+    coderoom,
+    webdew,
   } from "../assets";
   
   export const navLinks = [
@@ -124,6 +128,96 @@ import {
   ];
   
   const projects = [
+    {
+      name: "WebDew",
+      description:
+        "With a focus on user engagement, my design for WebDew combines aesthetic appeal with intuitive navigation, providing a visually striking and user-friendly interface. ",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Agency",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: webdew,
+      figma_link: "https://www.figma.com/proto/ujfxUpXsmY3bLIHzobiLxI/WebDew?page-id=0%3A1&type=design&node-id=4-145&viewport=269%2C40%2C0.18&t=WyissBUBsaI0KfBH-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design",
+      isFigma: true,
+    },
+    {
+      name: "Store Code",
+      description:
+        "A platform where travel influencers create custom itinerary to guide people based on their experiences. Influencers earn by getting people to book activities by using their codes.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Travel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travel,
+      figma_link: "https://www.figma.com/proto/ZIK6aCXiicP4cUZ5nyues9/Store-Code-App?page-id=0%3A1&type=design&node-id=0-108&viewport=301%2C433%2C0.12&t=JJFY4aTl8d9rwVsE-1&scaling=min-zoom&starting-point-node-id=0%3A108&show-proto-sidebar=1&mode=design",
+      isFigma: true,
+    },
+    {
+      name: "CodeRoom",
+      description:
+        "Single page UI for a software development agency and other digital services. Designed keeping responsiveness, user-centric thinking and a clean UI in mind. ",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Agency",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: coderoom,
+      figma_link: "https://www.figma.com/proto/Nxaxm07aJJwT9zHMCqiIUU/Trebled-Design?page-id=0%3A1&type=design&node-id=34-1783&viewport=649%2C55%2C0.17&t=7KQRQllN5zmlyTBP-1&scaling=min-zoom&starting-point-node-id=34%3A1783&show-proto-sidebar=1&mode=design",
+      isFigma: true,
+    },
+    {
+      name: "Nike Store",
+      description:
+        "A simple Nike web store front-end designed for easy navigation, fluid user experience and responsiveness. Developed using React.js and Tailwind CSS",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind.css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      github_link: "https://github.com/kAOS6-9/nike",
+      web_link: "https://kaos6-9.github.io/nike/",
+      isLogo:true,
+      isWeb: true,
+    },
     {
       name: "Gamerverse",
       description:
