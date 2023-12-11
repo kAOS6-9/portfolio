@@ -23,6 +23,7 @@ import {
     travel,
     coderoom,
     webdew,
+    vindicator,
   } from "../assets";
   
   export const navLinks = [
@@ -123,6 +124,19 @@ import {
         "Created wireframes, user flows, and interactive prototypes using tools such as Adobe XD and Figma.",
         "Collaborated closely with development teams to ensure accurate implementation of designs, maintaining design integrity throughout the development process.",
         "Reduced user onboarding time by 50% through intuitive UI enhancements in Anxio, a mental wellness mobile application.",
+      ],
+    },
+    {
+      title: "UI/UX Lead",
+      company_name: "Vindicator",
+      icon: vindicator,
+      iconBg: "#EFFFDB",
+      date: "October 2023 - Present",
+      points: [
+        "Overseeing the entire design lifecycle, from conceptualization to execution.",
+        "Collaborated closely with product managers, developers, and other stakeholders to align design goals with business objectives.",
+        "Ensured that the user-centric principles are at the forefront of every decision.",
+        "Through my leadership, I've successfully implemented design systems, streamlined workflows, and fostered a collaborative design culture within organizations.",
       ],
     },
   ];
