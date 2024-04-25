@@ -127,7 +127,7 @@ import {
       ],
     },
     {
-      title: "Senior UI/UX Designer",
+      title: "UI/UX Lead",
       company_name: "Vindicator",
       icon: vindicator,
       iconBg: "#EFFFDB",
