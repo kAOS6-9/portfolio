@@ -39,7 +39,7 @@ import nike from './nike.png'
 import travel from './travel.png'
 import coderoom from './coderoom.png'
 import webdew from './webdew.png'
-import vindicator from './vindicator.png'
+import vindicator from './OIP.jpg'
 
 export {
   vindicator,

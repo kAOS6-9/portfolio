@@ -130,7 +130,7 @@ import {
       title: "UI/UX Lead",
       company_name: "Reverse Thought Creative Studio",
       icon: vindicator,
-      iconBg: "#EFFFDB",
+      iconBg: "#FFFFFF",
       date: "October 2023 - Present",
       points: [
         "Overseeing the entire design lifecycle, from conceptualization to execution.",
