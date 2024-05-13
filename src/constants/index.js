@@ -128,7 +128,7 @@ import {
     },
     {
       title: "UI/UX Lead",
-      company_name: "Vindicator",
+      company_name: "Reverse Thought Creative Studio",
       icon: vindicator,
       iconBg: "#EFFFDB",
       date: "October 2023 - Present",
@@ -136,7 +136,7 @@ import {
         "Overseeing the entire design lifecycle, from conceptualization to execution.",
         "Collaborated closely with product managers, developers, and other stakeholders to align design goals with business objectives.",
         "Ensured that the user-centric principles are at the forefront of every decision.",
-        "Through my leadership, I've successfully implemented design systems, streamlined workflows, and fostered a collaborative design culture within organizations.",
+        "Through my leadership, I've successfully implemented development standards, streamlined workflows, and fostered a collaborative design culture within organizations.",
       ],
     },
   ];
