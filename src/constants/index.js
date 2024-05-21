@@ -24,6 +24,7 @@ import {
     coderoom,
     webdew,
     vindicator,
+    amazonre,
   } from "../assets";
   
   export const navLinks = [
@@ -142,6 +143,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Amazon ReDesign",
+      description:
+        "This project tackles the Amazon homepage, streamlining navigation for a more intuitive search and discovery experience. By prioritizing user research and clean visuals.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "E-Commerce",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ReDesign",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: amazonre,
+      figma_link: "https://www.figma.com/proto/jBIOdqOVuEfrjanYcgMCJW/Amazon-Redesign?page-id=0%3A1&node-id=2-3&viewport=189%2C121%2C0.44&t=doLCKpswicrJm6YP-1&scaling=contain",
+      isFigma: true,
+    },
     {
       name: "WebDew",
       description:

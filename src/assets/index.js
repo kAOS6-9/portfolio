@@ -40,8 +40,10 @@ import travel from './travel.png'
 import coderoom from './coderoom.png'
 import webdew from './webdew.png'
 import vindicator from './OIP.jpg'
+import amazonre from './amazonre.png'
 
 export {
+  amazonre,
   vindicator,
   webdew,
   coderoom,
