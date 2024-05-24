@@ -41,8 +41,10 @@ import coderoom from './coderoom.png'
 import webdew from './webdew.png'
 import vindicator from './OIP.jpg'
 import amazonre from './amazonre.png'
+import vindicatorpro from './vindicator.jpg'
 
 export {
+  vindicatorpro,
   amazonre,
   vindicator,
   webdew,

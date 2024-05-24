@@ -25,6 +25,7 @@ import {
     webdew,
     vindicator,
     amazonre,
+    vindicatorpro,
   } from "../assets";
   
   export const navLinks = [
@@ -143,6 +144,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Vindicator.pro",
+      description:
+        "A gaming services website, focusing on intuitive UI and seamless UX. Successfully combined aesthetics with functionality to create a captivating online presence.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind.css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vindicatorpro,
+      web_link: "https://vindicator.pro/",
+      isWeb: true,
+    },
     {
       name: "Amazon ReDesign",
       description:
