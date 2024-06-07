@@ -188,28 +188,28 @@ import {
       figma_link: "https://www.figma.com/proto/jBIOdqOVuEfrjanYcgMCJW/Amazon-Redesign?page-id=0%3A1&node-id=2-3&viewport=189%2C121%2C0.44&t=doLCKpswicrJm6YP-1&scaling=contain",
       isFigma: true,
     },
-    {
-      name: "WebDew",
-      description:
-        "With a focus on user engagement, my design for WebDew combines aesthetic appeal with intuitive navigation, providing a visually striking and user-friendly interface. ",
-      tags: [
-        {
-          name: "Figma",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Agency",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Responsive",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: webdew,
-      figma_link: "https://www.figma.com/proto/ujfxUpXsmY3bLIHzobiLxI/WebDew?page-id=0%3A1&type=design&node-id=4-145&viewport=269%2C40%2C0.18&t=WyissBUBsaI0KfBH-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design",
-      isFigma: true,
-    },
+    // {
+    //   name: "WebDew",
+    //   description:
+    //     "With a focus on user engagement, my design for WebDew combines aesthetic appeal with intuitive navigation, providing a visually striking and user-friendly interface. ",
+    //   tags: [
+    //     {
+    //       name: "Figma",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Agency",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Responsive",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: webdew,
+    //   figma_link: "https://www.figma.com/proto/ujfxUpXsmY3bLIHzobiLxI/WebDew?page-id=0%3A1&type=design&node-id=4-145&viewport=269%2C40%2C0.18&t=WyissBUBsaI0KfBH-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design",
+    //   isFigma: true,
+    // },
     {
       name: "Store Code",
       description:
